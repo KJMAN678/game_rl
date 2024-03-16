@@ -1,0 +1,6 @@
+.env
+app/node_modules/
+.ipynb_checkpoints/
+.DS_Store
+*.ipynb
+__pycache__/
