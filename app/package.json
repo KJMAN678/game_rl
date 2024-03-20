@@ -1,14 +1,21 @@
 {
-  "name": "app",
+  "name": "pokemon-showdown",
   "version": "1.0.0",
-  "description": "",
+  "description": "- poke-env - gym-super-mario-bros",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KJMAN678/game_rl.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KJMAN678/game_rl/issues"
+  },
+  "homepage": "https://github.com/KJMAN678/game_rl#readme",
   "dependencies": {
     "pokemon-showdown": "^0.11.9"
   }

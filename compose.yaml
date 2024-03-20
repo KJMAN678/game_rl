@@ -1,14 +1,5 @@
 version: '3'
 services:
-  webserver:
-    build: .
-    image: node-express-dev:1.0
-    tty: true
-    volumes:
-      - ./app:/app
-    ports:
-      - "8080:3000"
-
   py3:
     build: .
     restart: always
@@ -22,7 +13,9 @@ services:
       --notebook-dir=/app
     expose:
       - "8888"
+      - "8000"
     ports:
       - "127.0.0.1:8888:8888"
+      - "127.0.0.1:8000:8000"
     volumes:
       - ./app:/app

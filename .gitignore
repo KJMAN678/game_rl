@@ -4,3 +4,4 @@ app/node_modules/
 .DS_Store
 *.ipynb
 __pycache__/
+git-credential-github-token
